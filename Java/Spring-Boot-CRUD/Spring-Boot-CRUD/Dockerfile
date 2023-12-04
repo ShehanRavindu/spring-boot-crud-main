@@ -16,7 +16,7 @@ RUN adduser --system --uid 10014 wso2
 # Set a non-root user
 USER 10014
 
-ENTRYPOINT ["java","-jar","/usr/app/choreotest/spring-boot-jpa-postgresql-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","/usr/app/choreotest/Spring-Boot-CRUD-0.0.1-SNAPSHOT.jar"]
 RUN echo `ls`
 EXPOSE 8080
 
